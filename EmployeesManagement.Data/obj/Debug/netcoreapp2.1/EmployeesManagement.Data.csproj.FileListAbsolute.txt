@@ -1,0 +1,16 @@
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\bin\Debug\netcoreapp2.1\EmployeesManagement.Models.dll
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\obj\Debug\netcoreapp2.1\EmployeesManagement.Data.csprojAssemblyReference.cache
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\obj\Debug\netcoreapp2.1\EmployeesManagement.Data.csproj.CoreCompileInputs.cache
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\obj\Debug\netcoreapp2.1\EmployeesManagement.Data.AssemblyInfoInputs.cache
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\obj\Debug\netcoreapp2.1\EmployeesManagement.Data.AssemblyInfo.cs
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\bin\Debug\netcoreapp2.1\EmployeesManagement.Data.deps.json
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\bin\Debug\netcoreapp2.1\EmployeesManagement.Data.runtimeconfig.json
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\bin\Debug\netcoreapp2.1\EmployeesManagement.Data.runtimeconfig.dev.json
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\bin\Debug\netcoreapp2.1\EmployeesManagement.Data.dll
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\bin\Debug\netcoreapp2.1\EmployeesManagement.Data.pdb
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\bin\Debug\netcoreapp2.1\EmployeesManagement.Models.pdb
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\obj\Debug\netcoreapp2.1\EmployeesManagement.Data.csproj.CopyComplete
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\obj\Debug\netcoreapp2.1\EmployeesManagement.Data.dll
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\obj\Debug\netcoreapp2.1\EmployeesManagement.Data.pdb
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\bin\Debug\netcoreapp2.1\EmployeesManagement.Common.dll
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Data\bin\Debug\netcoreapp2.1\EmployeesManagement.Common.pdb

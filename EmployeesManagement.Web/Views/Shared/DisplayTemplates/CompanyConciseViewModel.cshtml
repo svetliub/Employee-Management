@@ -1,0 +1,14 @@
+﻿@model CompanyConciseViewModel
+
+<tr>
+    <td>
+        <a asp-controller="Companies" asp-action="Details" asp-route-id="@Model.CompanyId">
+            @Model.Name
+        </a>
+    </td>
+    <td>
+        <a asp-controller="Companies" asp-action="Details" asp-route-id="@Model.CompanyId">
+            @Model.Bulstat
+        </a>
+    </td>
+</tr>

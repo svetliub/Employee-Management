@@ -1,0 +1,37 @@
+﻿@model CompanyEditBindingModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2 style="text-align:center">Edit company</h2>
+<br />
+<div class="col-md-3"></div>
+<div class="container-fluid">
+    <form style="align-content:center" asp-controller="Companies" asp-action="Edit" class="mx-auto half-width col-md-6" method="post">
+        <input style="display:none" asp-for="CompanyId"/>
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input type="text" class="form-control" id="Name" placeholder="..." asp-for="Name" />
+        </div>
+        <span asp-validation-for="Name" class="text-danger"></span>
+        <div class="form-group">
+            <label asp-for="Bulstat"></label>
+            <input type="text" class="form-control" id="Bulstat" placeholder="..." asp-for="Bulstat" />
+        </div>
+        <span asp-validation-for="Bulstat" class="text-danger"></span>
+        <div class="form-group">
+            <label asp-for="TownName"></label>
+            <input type="text" class="form-control" id="Town" placeholder="..." asp-for="TownName" />
+        </div>
+        <span asp-validation-for="TownName" class="text-danger"></span>
+        <div class="form-group">
+            <label asp-for="Address"></label>
+            <input type="text" class="form-control" id="Address" placeholder="..." asp-for="Address" />
+        </div>
+        <span asp-validation-for="Address" class="text-danger"></span>
+        <div class="button-holder d-flex justify-content-center">
+            <button type="submit" id="send" class="btn btn-success">Edit</button>
+            <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Cancel</a>
+        </div>
+    </form>
+</div>

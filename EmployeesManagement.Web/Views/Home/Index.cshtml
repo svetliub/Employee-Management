@@ -1,0 +1,21 @@
+﻿@model List<CompanyConciseViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2 style="text-align:center">All Companies</h2>
+
+<table class="table table-striped">
+    <thead width="400">
+        <tr>
+            <th colspan="2" style="text-align:center; background-color:#cccccc">Companies</th>
+        </tr>
+        <tr>
+            <th width="200">Name</th>
+            <th width="200">Bulstat</th>
+        </tr>
+    </thead>
+    <tbody>
+        @Html.DisplayForModel()
+    </tbody>
+</table>

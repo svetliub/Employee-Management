@@ -1,0 +1,69 @@
+﻿@model EmployeeEditBindingModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@{
+    var experienceLevelTypes = this.ViewData["ExperienceLevels"] as IEnumerable<ExperienceLevelType>;
+    var companies = this.ViewData["Companies"] as IEnumerable<CompanyConciseViewModel>;
+    IEnumerable<SelectListItem> experienceLevelsSelectList = null;
+    IEnumerable<SelectListItem> companiesSelectList = null;
+
+    if (experienceLevelTypes != null)
+    {
+        experienceLevelsSelectList = experienceLevelTypes.Select(a => new SelectListItem() { Text = a.Name, Value = a.Id.ToString() });
+    }
+
+    if (companies != null)
+    {
+        companiesSelectList = companies.Select(c => new SelectListItem() { Text = c.Name, Value = c.CompanyId.ToString() });
+
+    }
+}
+
+<h2 style="text-align:center">Edit employee</h2>
+<br />
+<div class="col-md-3"></div>
+<div class="container-fluid">
+    <form style="align-content:center" asp-controller="Employees" asp-action="Edit" class="mx-auto half-width col-md-6" method="post">
+        <input style="display:none" asp-for="EmployeeId" />
+        <div class="form-group">
+            <label asp-for="FirstName"></label>
+            <input type="text" class="form-control" id="FirstName" placeholder="..." asp-for="FirstName" />
+        </div>
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+        <div class="form-group">
+            <label asp-for="LastName"></label>
+            <input type="text" class="form-control" id="LastName" placeholder="..." asp-for="LastName" />
+        </div>
+        <span asp-validation-for="LastName" class="text-danger"></span>
+        <div class="form-group">
+            <label asp-for="Salary"></label>
+            <input type="text" class="form-control" id="Salary" placeholder="..." asp-for="Salary" />
+        </div>
+        <span asp-validation-for="Salary" class="text-danger"></span>
+        <div class="form-group">
+            <label asp-for="ExperienceLevelId"></label>
+            <div>
+                <select asp-for="ExperienceLevelId" asp-items="experienceLevelsSelectList" class="form-control" AutoPostBack="true"></select>
+                <span class="text-danger" asp-validation-for="ExperienceLevelId"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CompanyId"></label>
+            <div>
+                <select asp-for="CompanyId" asp-items="companiesSelectList" class="form-control"></select>
+                <span class="text-danger" asp-validation-for="CompanyId"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="VacationDays"></label>
+            <input type="text" class="form-control" id="VacationDays" placeholder="..." asp-for="VacationDays" />
+        </div>
+        <span asp-validation-for="VacationDays" class="text-danger"></span>
+        <div class="button-holder d-flex justify-content-center">
+            <button type="submit" id="send" class="btn btn-success">Edit</button>
+            <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Cancel</a>
+        </div>
+    </form>
+</div>

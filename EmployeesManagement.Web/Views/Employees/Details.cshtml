@@ -1,0 +1,33 @@
+﻿@model EmployeeDetailsViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details for @Model.FirstName @Model.LastName</h2>
+<br />
+<div class="container-fluid">
+    <div class="col-6">
+        <div class="card" style="width: 58rem; justify-content:center">
+            <div class="card-body">
+                <p class="card-text" style="font-size: 15px">Experience level: @Model.ExperienceLevel</p>
+                <p class="card-text" style="font-size: 15px">Company: @Model.Company</p>
+                <p class="card-text" style="font-size: 15px">Salary: @Model.Salary</p>
+                <p class="card-text" style="font-size: 15px">Start date: @Model.StartDate</p>
+                <p class="card-text" style="font-size: 15px">Vacation days: @Model.VacationDays</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div class="container-fluid">
+    <div class="col-lg-2">
+        <a class="btn btn-warning" asp-controller="Employees" asp-action="Edit" asp-route-id="@Model.EmployeeId">Edit</a>
+    </div>
+    <form asp-controller="Employees" asp-action="Delete" asp-route-id="@Model.EmployeeId" method="post">
+        <div class="col-lg-2"><button type="submit" id="send" class="btn btn-danger">Delete</button></div>
+    </form>
+    <div class="col-lg-2">
+        <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Cancel</a>
+    </div>
+</div>
+

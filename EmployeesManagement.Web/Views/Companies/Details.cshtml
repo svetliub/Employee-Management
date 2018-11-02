@@ -1,0 +1,33 @@
+﻿@model CompanyDetailsViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<br />
+<div class="container-fluid">
+    <div class="col-6">
+        <div class="card" style="width: 58rem; justify-content:center">
+            <div class="card-body">
+                <h5 class="card-title">Company name: @Model.Name</h5>
+                <p class="card-text" style="font-size: 15px">Bulstat: @Model.Bulstat</p>
+                <p class="card-text" style="font-size: 15px">Address: @Model.Town, @Model.Address</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+
+<div class="container-fluid">
+    <div class="col-lg-2">
+        <a class="btn btn-info" asp-controller="Employees" asp-action="GetAllEmployees" asp-route-id="@Model.CompanyId">Show Employees</a>
+    </div>
+    <div class="col-lg-2">
+        <a class="btn btn-warning" asp-controller="Companies" asp-action="Edit" asp-route-id="@Model.CompanyId">Edit</a>
+    </div>
+    <form asp-controller="Companies" asp-action="Delete" asp-route-id="@Model.CompanyId" method="post">
+        <div class="col-lg-2"><button type="submit" id="send" class="btn btn-danger">Delete</button></div>
+    </form>
+    <div class="col-lg-2">
+        <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Cancel</a>
+    </div>
+</div>

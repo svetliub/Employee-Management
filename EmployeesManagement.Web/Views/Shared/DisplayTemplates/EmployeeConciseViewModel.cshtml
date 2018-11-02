@@ -1,0 +1,19 @@
+﻿@model EmployeeConciseViewModel
+
+<tr>
+    <td>
+        <a asp-controller="Employees" asp-action="Details" asp-route-id="@Model.EmployeeId">
+            @Model.FirstName
+        </a>
+    </td>
+    <td>
+        <a asp-controller="Employees" asp-action="Details" asp-route-id="@Model.EmployeeId">
+            @Model.LastName
+        </a>
+    </td>
+    <td>
+        <a asp-controller="Employees" asp-action="Details" asp-route-id="@Model.EmployeeId">
+            @Model.ExperienceLevel
+        </a>
+    </td>
+</tr>

@@ -1,0 +1,9 @@
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Common\bin\Debug\netcoreapp2.1\EmployeesManagement.Common.deps.json
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Common\bin\Debug\netcoreapp2.1\EmployeesManagement.Common.dll
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Common\bin\Debug\netcoreapp2.1\EmployeesManagement.Common.pdb
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Common\obj\Debug\netcoreapp2.1\EmployeesManagement.Common.csprojAssemblyReference.cache
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Common\obj\Debug\netcoreapp2.1\EmployeesManagement.Common.csproj.CoreCompileInputs.cache
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Common\obj\Debug\netcoreapp2.1\EmployeesManagement.Common.AssemblyInfoInputs.cache
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Common\obj\Debug\netcoreapp2.1\EmployeesManagement.Common.AssemblyInfo.cs
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Common\obj\Debug\netcoreapp2.1\EmployeesManagement.Common.dll
+C:\Users\Steve\Desktop\Local_Disc(D)\Programirane\STPInformationTechnology\EmployeesManagement\EmployeesManagement.Common\obj\Debug\netcoreapp2.1\EmployeesManagement.Common.pdb

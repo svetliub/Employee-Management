@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeesManagement.Common\EmployeesManagement.Common.csproj" />
+    <ProjectReference Include="..\EmployeesManagement.Data\EmployeesManagement.Data.csproj" />
+    <ProjectReference Include="..\EmployeesManagement.Models\EmployeesManagement.Models.csproj" />
+  </ItemGroup>
+
+</Project>
